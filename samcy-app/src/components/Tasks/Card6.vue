@@ -1,14 +1,13 @@
 <template>
     <div class="card">
-        <h2>Card1</h2>
-        <p>Task: Header and Footer</p>
-        
+        <h2>Card 6</h2>
+        <p>Task: Waec Card</p>
     </div>
 </template>
 
 <script>
 export default {
-name: 'Card1',
+    name: "Card6"
 }
 </script>
 

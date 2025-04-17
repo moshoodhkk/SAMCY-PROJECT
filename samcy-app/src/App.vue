@@ -1,30 +1,23 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import Card1 from "./components/Tasks/Card1.vue";
+import Card2 from "./components/Tasks/Card2.vue";
+import Card3 from "./components/Tasks/Card3.vue";
+import Card4 from "./components/Tasks/Card4.vue";
+import Card5 from "./components/Tasks/Card5.vue";
+import Card6 from "./components/Tasks/Card6.vue";
+
 </script>
 
 <template>
-  <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
-  </div>
-  <HelloWorld msg="Vite + Vue" />
+  <Card1 />
+  <Card2 />
+  <Card3 />
+  <Card4 />
+  <Card5 />
+  <Card6 />
+
 </template>
 
 <style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
+
 </style>
